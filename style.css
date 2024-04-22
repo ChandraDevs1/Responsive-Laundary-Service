@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    height: 70vh;
+    width: 80vw;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  ul,
+  li {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    background-color: #fff;
+    height: 7vh;
+    align-items: center;
+  }
+
+  .start {
+    font-size: larger;
+    font-weight: 700;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .user {
+    border: 2px solid;
+    border: none;
+    background-color: rgb(214, 238, 248);
+    border-radius: 6px;
+    color: rgb(50, 145, 183);
+    font-weight: bold;
+    width: 15vw;
+    margin-left: 10vw;
+  }
+
+  main {
+    display: flex;
+  }
+
+  img {
+    padding-top: 15vh;
+    width: 40vw;
+    height: 95vh;
+  }
+  article {
+    display: block;
+    position: relative;
+    top: 13vh;
+    left: 4vw;
+  }
+
+  p {
+    font-size: 4.5em;
+    font-weight: bold;
+    padding-left: 3px;
+  }
+  span {
+    color: rgb(24, 91, 168);
+  }
+  aside {
+    min-width: 90v;
+    font-size: 1.9em;
+    color: rgba(86, 87, 88, 0.598);
+    margin-top: 2vh;
+    padding-left: 14px;
+  }
+  button {
+    display: block;
+    position: absolute;
+    top: 74vh;
+    left: 3vw;
+    bottom: 2vh;
+    width: 40%;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgb(155, 36, 219);
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+}
